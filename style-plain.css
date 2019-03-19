@@ -1,0 +1,15 @@
+/*set the styles for the side menu column */
+nav ul {float:left; width:150px; margin-left:10px; list-style-type:none;}
+
+/* set general side button styles */
+li.btn {width:115px; line-height:20px; margin-bottom:3px; text-align:center;}
+
+/* set general access (anchor) styles */
+li.btn a {display:block; width:115px; color: white; background:gray;
+font-family:arial; font-size:small; font-weight:bold; text-decoration:none;}
+
+/* mouseover*/
+li.btn a:hover {background: blue;}
+
+/* mousedown (optional) */
+li.btn a:active {background: green;}

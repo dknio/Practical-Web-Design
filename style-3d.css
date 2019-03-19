@@ -1,0 +1,15 @@
+/*set vertical button menu column */
+nav ul {float:left; width:150px; margin-left:10px; list-style-type:none;}
+
+/* set general side button styles */
+li.btn {width:115px; line-height:20px; margin-bottom:3px; text-align:center;}
+
+/* set general access (anchor) styles */
+li.btn a {display:block; width:115px; color: white;font-family:arial;
+  font-size:small; font-weight:bold; text-decoration:none;}
+/* mouseout (default) */
+li.btn a {background: #1A9CE0; border:4px outset #AABAFF;}
+/* mouseover */
+li.btn a:hover {background:#0A4ADF; border:4px outset #8ABAFF;}
+/* omousedown (optional)*/
+li.btn a:active {background:#AECBFF; border:4px inset #AECBFF;}

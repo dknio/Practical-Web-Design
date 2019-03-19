@@ -3,7 +3,11 @@
 <head>
   <title>Home Page</title>
   <meta charset=utf-8>
-  <link href="style-4col.css" rel="stylesheet" type="text/css">
+  <link href="style-3d.css" rel="stylesheet" type="text/css">
+  <!--[if lte IE 8]>
+  <script src="html5.js">
+  </script>
+  <![endif]-->
 </head>
 
 <body>
@@ -12,13 +16,15 @@
       <h1>The Rainbow Gallery</h1>
     </header>
     <div id="content">
-      <div id="leftcol">
-        <p>This is the far left column</p>
-        <a href=page-4.html>Go to Page 4<br>
-          <a href=page-3.html>Go to Page 3<br>
-        <a href=page-2.html>Go to Page 2<br>
-          <a href=index.html>Home Page</a><br>
-        </div>
+      <nav>
+        <ul>
+          <p>Menu</p>
+          <li class="btn"><a href=page-2.html>Go to Page 2</a><br></li>
+          <li class="btn"><a href="page-3.html">Go to Page 3</a><br></li>
+          <li class="btn"><a href="page-4.html">Go to page 4</a><br></li>
+          <li class="btn"><a href=index.html>Home Page</a><br></li>
+        </ul>
+      </nav><!--the conten nav finishes here-->
         <div id ="rightcol">
           <p>This is the far right column</p>
         </div>
